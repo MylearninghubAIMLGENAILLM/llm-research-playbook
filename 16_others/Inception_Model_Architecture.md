@@ -28,9 +28,7 @@ The outputs are **concatenated depth-wise**.
 
 ### Diagram (Simplified)
 
-markdown
-Copy code
-             ┌───────────────┐
+ ┌───────────────┐
 Input ─────────▶ │ 1x1 Conv │
 └───────────────┘
 ┌───────────────┐
@@ -48,9 +46,6 @@ Concatenate Depth-Wise
 │
 ▼
 Output Feature Map
-
-yaml
-Copy code
 
 ---
 
