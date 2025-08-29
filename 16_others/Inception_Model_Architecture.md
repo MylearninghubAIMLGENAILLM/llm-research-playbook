@@ -27,10 +27,10 @@ Each module has **four parallel branches**:
 The outputs are **concatenated depth-wise**.
 
 ### Diagram (Simplified)
-     <img width="3401" height="2710" alt="image" src="https://github.com/user-attachments/assets/3fa59757-0bec-4375-bcc9-951e5a437d6a" />
+    
+<img width="3401" height="2710" alt="image" src="https://github.com/user-attachments/assets/3e5c2e04-81d5-4c43-b74d-02af8517ab75" />
 
 
----
 
 ## 🔹 Evolution of Inception Models
 
