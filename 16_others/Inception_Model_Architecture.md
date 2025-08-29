@@ -27,25 +27,8 @@ Each module has **four parallel branches**:
 The outputs are **concatenated depth-wise**.
 
 ### Diagram (Simplified)
+     <img width="3401" height="2710" alt="image" src="https://github.com/user-attachments/assets/3fa59757-0bec-4375-bcc9-951e5a437d6a" />
 
- ┌───────────────┐
-Input ─────────▶ │ 1x1 Conv │
-└───────────────┘
-┌───────────────┐
-Input ─────────▶ │ 1x1 → 3x3 Conv│
-└───────────────┘
-┌───────────────┐
-Input ─────────▶ │ 1x1 → 5x5 Conv│
-└───────────────┘
-┌───────────────┐
-Input ─────────▶ │ 3x3 Pool →1x1 │
-└───────────────┘
-│
-▼
-Concatenate Depth-Wise
-│
-▼
-Output Feature Map
 
 ---
 
