@@ -6,12 +6,8 @@ A **Siamese Network** is a neural architecture composed of two or more **weight-
 
 ## 1) High-Level Idea
 
-```
- x₁ ─▶ [ Encoder fθ ] ─▶ z₁ ─┐
-                             │  distance d(z₁, z₂) ─▶ loss( d, y )
- x₂ ─▶ [ Encoder fθ ] ─▶ z₂ ─┘
-         (shared weights)
-```
+<img width="1273" height="675" alt="image" src="https://github.com/user-attachments/assets/86d03846-f5e3-4f87-a67d-e58fa72dca8f" />
+
 
 - Two inputs **x₁, x₂** are passed through the **same encoder** \(f_θ\) producing embeddings **z₁, z₂**.
 - A **distance/similarity head** computes \( d(z₁, z₂) \) (e.g., Euclidean, cosine).
